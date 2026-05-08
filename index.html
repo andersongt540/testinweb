@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centro Médico Loira</title>
+    <title>Centro Médico Loira | Faro de Salud en Caracas</title>
 
     <link rel="icon" type="image/svg+xml" href="imagenes/Logo Loira.svg">
     <link rel="stylesheet" href="css/stilosIndex.css">
@@ -29,6 +29,8 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="dirMedico.html">Directorio Médico</a></li>
+                <!-- Añadido enlace a noticias para navegación interna -->
+                <li><a href="#noticias">Noticias</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -41,59 +43,64 @@
     </section>
 
     <section class="quick-services">
+        <!-- Emergencia -->
         <div class="service-card">
             <i class="fas fa-ambulance"></i>
             <h3>Emergencia 24h</h3>
             <p>Disponibles en todo momento para atender cualquier urgencia.</p>
         </div>
-        <a href="https://api.whatsapp.com/message/2NWRR7R6CZDFI1?autoload=1&app_absent=0" class="service-link">
+
+        <!-- Laboratorio -->
+        <a href="https://api.whatsapp.com/message/2NWRR7R6CZDFI1?autoload=1&app_absent=0" class="service-link" target="_blank" rel="noopener noreferrer">
             <div class="service-card">
                 <i class="fas fa-flask"></i>
                 <h3>Laboratorio</h3>
-                <p>Resultados precisos y rápidos para tus chequeos preventivos, respaldados por especialistas
-                    comprometidos con tu bienestar.</p>
+                <p>Resultados precisos y rápidos para tus chequeos preventivos, respaldados por especialistas.</p>
             </div>
         </a>
-        <a href="https://api.whatsapp.com/message/YM7ZNK4VDOYRA1?autoload=1&app_absent=0" class="service-link">
+
+        <!-- Radiología -->
+        <a href="https://api.whatsapp.com/message/YM7ZNK4VDOYRA1?autoload=1&app_absent=0" class="service-link" target="_blank" rel="noopener noreferrer">
             <div class="service-card">
                 <i class="fas fa-x-ray"></i>
                 <h3>Radiología</h3>
-                <p>Diagnósticos precisos mediante imágenes de alta resolución y tecnología digital de vanguardia,
-                    optimizando procesos para ofrecerte la mayor nitidez en cada estudio.</p>
+                <p>Diagnósticos precisos mediante imágenes de alta resolución y tecnología digital de vanguardia.</p>
             </div>
         </a>
 
-        <a href="https://api.whatsapp.com/send/?phone=584222200639&text&type=phone_number&app_absent=0"
-            class="service-link">
+        <!-- Resonancia -->
+        <a href="https://api.whatsapp.com/send/?phone=584222200639&text&type=phone_number&app_absent=0" class="service-link" target="_blank" rel="noopener noreferrer">
             <div class="service-card">
                 <i class="fas fa-microscope"></i>
                 <h3>Resonancia y endoscopia</h3>
-                <p>Estudios especializados y mínimamente invasivos para una evaluación interna detallada y segura.</p>
+                <p>Estudios especializados y mínimamente invasivos para una evaluación interna detallada.</p>
             </div>
         </a>
 
-        <a href="https://api.whatsapp.com/message/YBU76CVSV2OYE1?autoload=1&app_absent=0" class="service-link">
+        <!-- Oncología -->
+        <a href="https://api.whatsapp.com/message/YBU76CVSV2OYE1?autoload=1&app_absent=0" class="service-link" target="_blank" rel="noopener noreferrer">
             <div class="service-card">
                 <i class="fas fa-ribbon"></i>
                 <h3>Oncología</h3>
-                <p>Atención integral y tratamientos avanzados enfocados en el bienestar y recuperación del paciente.</p>
+                <p>Atención integral y tratamientos avanzados enfocados en la recuperación del paciente.</p>
             </div>
         </a>
-        <div class="service-card">
-            <i class="fas fa-user-check"></i>
-            <h3>APS</h3>
-            <p>Atención médica integral y preventiva diseñada para el cuidado continuo y el bienestar de toda la
-                familia.</p>
-        </div>
+
+        <!-- APS -->
+        <a href="https://api.whatsapp.com/send/?phone=584222200639&text=Hola,%20deseo%20información%20sobre%20APS" class="service-link" target="_blank" rel="noopener noreferrer">
+            <div class="service-card">
+                <i class="fas fa-user-check"></i>
+                <h3>APS</h3>
+                <p>Atención médica integral y preventiva diseñada para el bienestar de toda la familia.</p>
+            </div>
+        </a>
     </section>
 
     <section class="welcome">
         <div class="welcome-text">
             <h2>¡Bienvenidos!</h2>
-            <p>El Centro Médico Loira (CML) es una de las instituciones de salud privadas más reconocidas de Caracas,
-                Venezuela, específicamente ubicada en la urbanización El Paraíso.</p>
-            <p>Con más de 40 años de trayectoria (fundada aproximadamente en 1984), se ha consolidado como un referente
-                nacional en atención médica especializada.</p>
+            <p>El Centro Médico Loira (CML) es una de las instituciones de salud privadas más reconocidas de Caracas, Venezuela, ubicada en la urbanización El Paraíso.</p>
+            <p>Con más de 40 años de trayectoria, se ha consolidado como un referente nacional en atención médica especializada.</p>
         </div>
 
         <div class="welcome-video">
@@ -102,7 +109,7 @@
                     src="https://www.youtube.com/embed/ypTuGjagp6w?si=GVgZRX6q57RwEFfE&autoplay=1&mute=1"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy">
                 </iframe>
             </div>
         </div>
@@ -110,41 +117,34 @@
 
     <section class="directory">
         <h2>Directorio Médico</h2>
-        <p>El directorio médico del Centro Médico Loira destaca por contar con especialistas de amplia trayectoria,
-            organizados principalmente en su torre de consultorios en El Paraíso.</p>
+        <p>Especialistas de amplia trayectoria organizados en nuestra torre de consultorios en El Paraíso.</p>
         <a href="dirMedico.html" class="btn-more">Ver más</a>
     </section>
 
-
-    <section class="news-section">
+    <section id="noticias" class="news-section">
         <h2>Últimas Noticias</h2>
-        <!-- Aquí es donde la magia ocurre -->
         <div id="instagram-container" class="news-grid">
-            <p>Cargando noticias...</p>
+            <p>Cargando noticias de Instagram...</p>
+        </div>
+        
+        <div class="view-more-container">
+            <a href="https://instagram.com/centromedicoloira" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                Síguenos en Instagram para más noticias
+            </a>
         </div>
     </section>
 
-    <!-- IMPORTANTE: El script de Instagram solo debe estar UNA VEZ al final -->
-    <script async src="//www.instagram.com/embed.js"></script>
-
-    <div class="view-more-container">
-        <a href="https://instagram.com/centromedicoloira" target="_blank" class="btn-secondary">
-            Síguenos en Instagram para más noticias
-        </a>
-    </div>
-    </div>
-    </section>
     <footer>
         <div id="contacto" class="footer-container">
             <div class="footer-info">
                 <h3>CENTRO MÉDICO LOIRA</h3>
-                <p>42 años brindando el mejor servicio y siendo un faro de salud desde el oeste de Caracas.</p>
+                <p>42 años brindando el mejor servicio desde el oeste de Caracas.</p>
             </div>
             <div class="footer-hours">
                 <h4>HORARIO DE ATENCIÓN</h4>
                 <p><strong>Servicios Médicos:</strong> 24 horas </p>
                 <p><strong>Administrativo:</strong> Lunes-Viernes </p>
-                <p>08:00 am a 12:00 m / 01:00 pm a 05:00 pm </p>
+                <p>08:00 am a 05:00 pm </p>
             </div>
             <div class="footer-contact">
                 <p>📞 0212-4052223 / 0212-4052111 </p>
@@ -154,7 +154,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <!-- Asegúrate de que la ruta sea correcta (noticias.js o js/noticias.js) -->
     <script src="js/noticias.js"></script>
 </body>
-
 </html>
