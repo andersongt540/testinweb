@@ -378,6 +378,12 @@ nav ul li a.active {
 }
 
 
+footer {
+    background: var(--primary-blue);
+    color: var(--white);
+    padding: 60px 10% 30px 10%;
+}
+
 .footer-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -444,4 +450,5 @@ nav ul li a.active {
     .search-section {
         padding: 60px 5%;
     }
+    
 }
